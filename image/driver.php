@@ -240,8 +240,8 @@ abstract class Image_Driver
 		$w === null  and $w = $h;
 		$h === null  and $h = $w;
 
-		$x1 = $this->convert_number($x1, true);
-		$y1 = $this->convert_number($y1, false);
+		$x1 = $this->convert_number($x, true);
+		$y1 = $this->convert_number($y, false);
 		$w  = $this->convert_number($w, true);
 		$h  = $this->convert_number($h, false);
 
