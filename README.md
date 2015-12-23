@@ -12,7 +12,7 @@ This version of FuelPHP Image class have a new method for cropping images.
 
 ### Installation
 
-  > Copy the Fuel\Core\Image Folder from this repository and replace your existing Fuelphp project folder. (or clone it)
+  > Copy the \Image Folder from this repository and replace your existing Fuel\Core\Classes\Image\ project folder. (or clone it)
 
 ### Usage
 	<!-- Load the image first, then call crop_dim() function in order to crop your image with your specific cords and dimensions -->
