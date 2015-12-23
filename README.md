@@ -19,8 +19,8 @@ This version of FuelPHP Image class have a new method for cropping images.
 	
 	$driver = \Image::load("Path/to/Image")
 	->crop_dim($x,$y,$w,$h) //crop_dim($x,$y,$w,$h)
-	<!-- Save the cropped image using save() fuelphp function (check the fuelphp DOCS:#/method_save) -->
 	
+	<!-- Save the cropped image using save() fuelphp function (check the fuelphp DOCS:#/method_save) -->
 	->save("FILENAME", "755"); //save($filename = null, $permissions = null);
 	
 
