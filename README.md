@@ -16,9 +16,11 @@ This version of FuelPHP Image class have a new method for cropping images.
 
 ### Usage
 	<!-- Load the image first, then call crop_dim() function in order to crop your image with your specific cords and dimensions -->
+	
 	$driver = \Image::load("Path/to/Image")
 	->crop_dim($x,$y,$w,$h) //crop_dim($x,$y,$w,$h)
-	<!-- Save the cropped image using save() fuelphp function (check the fuelphp DOCS: http://fuelphp.com/docs/classes/image.html#/method_save) -->
+	<!-- Save the cropped image using save() fuelphp function (check the fuelphp DOCS:#/method_save) -->
+	
 	->save("FILENAME", "755"); //save($filename = null, $permissions = null);
 	
 
